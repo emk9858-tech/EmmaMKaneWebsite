@@ -69,7 +69,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 ::: {.g-col-6 #about-me-1}
 
-# Passionate about how we can apply data to improve educational outcomes for Deaf and Hard of Hearing students during transition points #
+** Passionate about how we can apply data to improve educational outcomes for Deaf and Hard of Hearing students during transition points **
 
 I enjoy working with data to answer questions that can help improve educational outcomes for Deaf and Hard of Hearing students. I am particularly interested in how we can use data to improve decision-making during transition points, such as the transition points across the K-12 pipeline, and how can we use data to improve the educational outcomes for Deaf and Hard of Hearing students.  
 
@@ -80,6 +80,7 @@ I enjoy working with data to answer questions that can help improve educational 
 ** Educational background and experience **
 
 I earned my B.S in Public Policy from the Rochester Institute of Technology (RIT) in 2026 and am currently working on my M.B.A with a concentration in Data Anlaytiucs and Mangement from RIT. I have experience working with data in various settings, including research, education, and community organizations. 
+
 
 :::
 
