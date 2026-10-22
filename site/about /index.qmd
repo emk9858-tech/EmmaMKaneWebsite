@@ -1,7 +1,7 @@
 ---
 title: "Emma M. Kane"
 subtitle: Education Research Analyst
-image: sidebar/avatar.png
+image: assests/images/headshot_profile.jpg
 image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
 about:
   template: trestles
