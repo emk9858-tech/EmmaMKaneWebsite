@@ -75,6 +75,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 - B.S. in Public Policy, Rochester Institute of Technology, 2026
 - M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
 
+::: 
 ::: {.g-col-4 #about-me-3}
 
 **Research Experience** 
