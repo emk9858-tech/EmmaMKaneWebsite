@@ -1,17 +1,14 @@
 ---
 title: "Emma M. Kane"
 subtitle: Education Research Analyst
-image: assests/images/headshot_profile.jpg
-image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+image: assets/images/headshot_profile.jpg
+
 about:
   template: trestles
   image-width: 14em
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "Accessibility"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
     - text: "Bluesky"
       aria-label: "Bluesky"
       href: https://bsky.app/profile/silviacanelon.com
