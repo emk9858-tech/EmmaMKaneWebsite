@@ -46,7 +46,7 @@ resources:
 
 Thanks for stopping by! 
 
-I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/research-center-culture-and-language) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
+I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/ccl) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
 to improve educational outcomes for Deaf and Hard of Hearing students.
 
 My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
