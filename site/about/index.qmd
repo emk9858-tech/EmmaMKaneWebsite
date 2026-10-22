@@ -21,8 +21,6 @@ about:
     - icon: github
       aria-label: GitHub
       href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
     - text: "ORCID"
       href: https://orcid.org/0000-0003-1709-1394
     - text: "Google Scholar"
@@ -44,19 +42,6 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: publication
-  contents: 
-    - "../publication/*/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
 format: 
   html: 
     page-layout: full
@@ -119,13 +104,11 @@ Prior to joining the Urban Health Lab, I developed novel data mining methods to 
 #### Projects
 ::: {#project}
 :::
-[See all &rarr;](../project){.about-links .subtitle}
+[See all &rarr;](../projects){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+::: {.g-col-6}
 #### Publications
-::: {#publication}
-:::
 [See all &rarr;](../publication){.about-links .subtitle}
 :::
 

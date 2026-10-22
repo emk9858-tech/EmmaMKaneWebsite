@@ -2,7 +2,7 @@
 title: "Projects"
 page-layout: full
 listing:
-  contents: projects/*/index.qmd
+  contents: "*/index.qmd"
   type: grid
   fields: [image, title, description, date]
   sort: "date desc"
