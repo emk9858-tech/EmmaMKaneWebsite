@@ -2,7 +2,7 @@
 title: "Early Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective"
 description: "This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr. Eunju Kang."
 date: 2026-04-01
-image: ../presentation/EHDI_Policy_Analysis.pdf
+image: ../projects/EHDI_Policy_Analysis.png
 categories: [Education, Deafness, Public Policy]
 ---
 
@@ -22,6 +22,17 @@ To ensure that this project meets the requirements of "Honors Option" for the RI
 ## Methods and tools
 
 Data Source: 
-## Links
 
-[View the project](PUBL360-EHDI.pdf)
+
+
+## View the Presentation 
+
+<iframe
+  src="/projects/PUBL360-EHDI.pdf"
+  width="100%"
+  height="700"
+  style="border: none;"
+  title="EHDI Policy Analysis">
+</iframe>
+
+
