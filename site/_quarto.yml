@@ -46,9 +46,9 @@ website:
       - text: Publications
         aria-label: "Publications"
         href: publication/index.qmd
-      - text: Talks
-        aria-label: "Talks"
-        href: talks/index.qmd
+      - text: Presentations
+        aria-label: "Presentations"
+        href: presentations/index.qmd
 
   
   page-footer:
