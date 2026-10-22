@@ -33,7 +33,6 @@ execute:
 I am a Deaf researcher with a passion to use public policy to improve access to oppportuities for Deaf and Hard of Hearing students in K-12 education. My **research intrests** focus on leveraging data to improve educational outcomes for Deaf and Hard of Hearing students, particularly during transition points across the K-12 pipeline through decision-making processes.
 
 [Learn more about me &rarr;](about/){.about-links .subtitle}
-
 :::
 <!-- hero-heading -->
 
