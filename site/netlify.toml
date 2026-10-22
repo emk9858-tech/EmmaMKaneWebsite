@@ -1,0 +1,4 @@
+[build]
+  base = "site"
+  publish = "_site"
+  command = "wget -qO- https://quarto.org/docs/download/_prerelease/quarto-linux-amd64.deb > quarto.deb && dpkg -x quarto.deb . && export PATH=$PATH:$PWD/opt/quarto/bin && quarto render"
