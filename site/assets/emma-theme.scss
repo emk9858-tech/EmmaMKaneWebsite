@@ -1,37 +1,39 @@
 /*-- scss:defaults --*/
 
 // =========================
-// Brand Colors
+// Academic Rose Theme
+// Accessible + Feminine
 // =========================
 
-$primary: #d97757;
-$secondary: #7d8ca3;
+$primary: #8f4f6f;
+$secondary: #5a6782;
 
-$primary-dark: #bc6245;
+$primary-dark: #6f3b57;
 $secondary-light: #aab5c4;
-$accent: #ffb703;
-$accent-light: #fde6dc;
-$accent-dark: #c95c3e;
+
+$accent: #d4a017;
+$accent-light: #f3e4ea;
+$accent-dark: #b38300;
 
 // =========================
 // Page Colors
 // =========================
 
-$body-bg: #fcfaf8;
-$body-color: #3f3f46;
+$body-bg: #faf9f8;
+$body-color: #222222;
 
-$navbar-bg: #fff7f2;
-$navbar-fg: #3f3f46;
+$navbar-bg: #ffffff;
+$navbar-fg: #222222;
 
 $link-color: $primary;
 $link-hover-color: $primary-dark;
 
-$border-color: #eee0d8;
+$border-color: #ddd7d7;
 
 $card-bg: #ffffff;
 
-$code-bg: #fff4ee;
-$code-color: #c95c3e;
+$code-bg: #f8f4f6;
+$code-color: $primary;
 
 // Typography
 
@@ -41,7 +43,7 @@ $font-family-sans-serif:
   "Segoe UI",
   sans-serif;
 
-$headings-color: #293241;
+$headings-color: #2c2c2c;
 
 
 /*-- scss:rules --*/
@@ -106,13 +108,14 @@ body {
 a {
   color: $link-color;
   text-decoration: underline;
-  text-decoration-color: transparent;
-  transition: all 0.2s ease;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
 }
 
-a:hover {
+a:hover,
+a:focus {
   color: $link-hover-color;
-  text-decoration-color: currentColor;
+  text-decoration-thickness: 3px;
 }
 
 // =========================
@@ -195,7 +198,6 @@ h3 {
   border: 1px solid $border-color;
   border-radius: 14px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
-
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -256,7 +258,7 @@ h3 {
 }
 
 .table thead {
-  background-color: #fff4ee;
+  background-color: #f7eff3;
 }
 
 // =========================
@@ -271,7 +273,7 @@ code {
 }
 
 pre {
-  background-color: #fffdfb;
+  background-color: #f8f4f6;
   border: 1px solid $border-color;
   border-radius: 10px;
   padding: 1rem;
@@ -315,7 +317,7 @@ img {
 
 blockquote {
   border-left: 4px solid $primary;
-  background-color: #fff8f4;
+  background-color: #f8f1f4;
   padding: 1rem 1.25rem;
   border-radius: 8px;
   font-style: italic;
