@@ -104,7 +104,7 @@ Evaluate the reproductive health experiences of Deaf and Hard of Hearing individ
 
 ::: {.g-col-6}
 #### Publications
-[See all &rarr;](../publication){.about-links .subtitle}
+[See all &rarr;](../publication/index.html){.about-links .subtitle}
 :::
 
 ::::
