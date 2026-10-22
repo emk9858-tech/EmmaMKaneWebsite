@@ -52,13 +52,14 @@ resources:
 ::: {#hero-heading}
 <div class="h1">Hey, I'm happy you're here</div>
 
-Thanks for stopping by!
+Thanks for stopping by! 
 
-I work as a data scientist at the [Urban Health Lab](https://www.urbanhealthlab.org/) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
+I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/research-center-culture-and-language) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
+to improve educational outcomes for Deaf and Hard of Hearing students.
 
-My current projects use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
+My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work on the [project page](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
 
-Get in touch via [LinkedIn](https://linkedin.com/in/spcanelon).
+Connect with me on[LinkedIn](https://linkedin.com/in/emmamkane).
 
 :::
 
