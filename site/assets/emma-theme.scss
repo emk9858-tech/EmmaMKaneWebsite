@@ -1,0 +1,258 @@
+/*-- scss:defaults --*/
+
+// =========================
+// Brand Colors
+// =========================
+
+// Primary palette
+$primary: #eb8b73;
+$secondary: #7d8ca3;
+
+// Accent shades
+$primary-dark: #d86e52;
+$secondary-light: #aab5c4;
+$accent: #f4b49a;
+$accent-light: #fde6dc;
+$accent-dark: #c95c3e;
+
+// =========================
+// Page Colors
+// =========================
+
+$body-bg: #fffaf5;
+$body-color: #3f3f46;
+
+$navbar-bg: #fff4ee;
+$navbar-fg: #3f3f46;
+
+$link-color: #eb8b73;
+$link-hover-color: #d86e52;
+
+$border-color: #f3e2d8;
+
+$card-bg: #ffffff;
+
+$code-bg: #fff4ee;
+$code-color: #c95c3e;
+
+// Typography
+$font-family-sans-serif:
+  "Aptos",
+  "Inter",
+  "Segoe UI",
+  sans-serif;
+
+$headings-color: #2f2f35;
+
+/*-- scss:rules --*/
+
+// =========================
+// Body
+// =========================
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  line-height: 1.7;
+}
+
+// =========================
+// Navigation
+// =========================
+
+.navbar {
+  background-color: $navbar-bg;
+  border-bottom: 1px solid $border-color;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: $navbar-fg;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $primary;
+}
+
+// =========================
+// Title Banner
+// =========================
+
+.quarto-title-banner {
+  background-color: #fff4ee;
+  color: $body-color;
+  border-bottom: 1px solid $border-color;
+}
+
+// =========================
+// Links
+// =========================
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+// =========================
+// Sidebar
+// =========================
+
+.sidebar {
+  background-color: #fffdfb;
+}
+
+.sidebar-item.active,
+.toc-active {
+  color: $primary;
+  font-weight: 600;
+}
+
+// =========================
+// Headings
+// =========================
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headings-color;
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 2px solid $accent-light;
+  padding-bottom: 0.4rem;
+}
+
+// =========================
+// Cards
+// =========================
+
+.card {
+  background-color: $card-bg;
+  border: 1px solid $border-color;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+// =========================
+// Callouts
+// =========================
+
+.callout {
+  border-radius: 12px;
+  border-width: 1px;
+}
+
+.callout-note {
+  border-left: 4px solid $primary;
+}
+
+.callout-tip {
+  border-left: 4px solid #84a98c;
+}
+
+.callout-warning {
+  border-left: 4px solid #e9c46a;
+}
+
+.callout-important {
+  border-left: 4px solid #e76f51;
+}
+
+// =========================
+// Tables
+// =========================
+
+.table {
+  border-color: $border-color;
+}
+
+.table thead {
+  background-color: #fff4ee;
+}
+
+// =========================
+// Code
+// =========================
+
+code {
+  color: $code-color;
+  background-color: $code-bg;
+  border-radius: 4px;
+  padding: 0.15rem 0.3rem;
+}
+
+pre {
+  background-color: #fffdfb;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+// =========================
+// Buttons
+// =========================
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  background-color: $primary-dark;
+  border-color: $primary-dark;
+}
+
+// =========================
+// Footer
+// =========================
+
+.footer,
+.nav-footer {
+  border-top: 1px solid $border-color;
+  background-color: #fff4ee;
+}
+
+// =========================
+// Images
+// =========================
+
+img {
+  border-radius: 12px;
+}
+
+// =========================
+// Blockquotes
+// =========================
+
+blockquote {
+  border-left: 4px solid $primary;
+  background-color: #fff8f4;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+}
+
+// =========================
+// TOC
+// =========================
+
+#TOC {
+  font-size: 0.95rem;
+}
+
+#TOC a:hover {
+  color: $primary;
+}
