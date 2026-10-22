@@ -9,23 +9,15 @@ about:
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "Bluesky"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://linkedin.com/in/emmamkane
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
+      href: https://github.com/emk9858-tech
     - text: "ORCID"
       href: https://orcid.org/0000-0003-1709-1394
-    - text: "Google Scholar"
-      aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
-    - text: "Newsletter"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
+
 listing:
 - id: project
   contents: 
