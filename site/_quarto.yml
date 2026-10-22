@@ -46,7 +46,7 @@ website:
         aria-label: "Project Portfolio"
         href: projects/index.qmd 
       - text: Service
-        aria-label: "Meeting People Where They R"
+        aria-label: "Service"
         href: service/index.qmd
       - text: Publications
         aria-label: "Publications"
