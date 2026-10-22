@@ -27,12 +27,6 @@ Data Source:
 
 ## View the Presentation 
 
-<iframe
-  src="/projects/PUBL360-EHDI.pdf"
-  width="100%"
-  height="700"
-  style="border: none;"
-  title="EHDI Policy Analysis">
-</iframe>
+[Open the presentation PDF](PUBL360-EHDI.pdf)
 
 
