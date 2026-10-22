@@ -1,0 +1,11 @@
+---
+title: "Publications"
+page-layout: full
+---
+
+A selection of my publications.
+
+## 2026
+
+- **Author Name**, Coauthor Name. (2026). *Article title.* Journal Name.
+  [Read the article](https://doi.org/example)

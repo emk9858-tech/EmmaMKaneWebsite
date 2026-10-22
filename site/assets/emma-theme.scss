@@ -4,14 +4,12 @@
 // Brand Colors
 // =========================
 
-// Primary palette
-$primary: #eb8b73;
+$primary: #d97757;
 $secondary: #7d8ca3;
 
-// Accent shades
-$primary-dark: #d86e52;
+$primary-dark: #bc6245;
 $secondary-light: #aab5c4;
-$accent: #f4b49a;
+$accent: #ffb703;
 $accent-light: #fde6dc;
 $accent-dark: #c95c3e;
 
@@ -19,16 +17,16 @@ $accent-dark: #c95c3e;
 // Page Colors
 // =========================
 
-$body-bg: #fffaf5;
+$body-bg: #fcfaf8;
 $body-color: #3f3f46;
 
-$navbar-bg: #fff4ee;
+$navbar-bg: #fff7f2;
 $navbar-fg: #3f3f46;
 
-$link-color: #eb8b73;
-$link-hover-color: #d86e52;
+$link-color: $primary;
+$link-hover-color: $primary-dark;
 
-$border-color: #f3e2d8;
+$border-color: #eee0d8;
 
 $card-bg: #ffffff;
 
@@ -36,13 +34,15 @@ $code-bg: #fff4ee;
 $code-color: #c95c3e;
 
 // Typography
+
 $font-family-sans-serif:
   "Aptos",
   "Inter",
   "Segoe UI",
   sans-serif;
 
-$headings-color: #2f2f35;
+$headings-color: #293241;
+
 
 /*-- scss:rules --*/
 
@@ -54,6 +54,21 @@ body {
   background-color: $body-bg;
   color: $body-color;
   line-height: 1.7;
+}
+
+// =========================
+// Hero Section
+// =========================
+
+#hero-heading {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#hero-heading p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
 }
 
 // =========================
@@ -79,7 +94,7 @@ body {
 // =========================
 
 .quarto-title-banner {
-  background-color: #fff4ee;
+  background-color: $navbar-bg;
   color: $body-color;
   border-bottom: 1px solid $border-color;
 }
@@ -90,12 +105,25 @@ body {
 
 a {
   color: $link-color;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: all 0.2s ease;
 }
 
 a:hover {
   color: $link-hover-color;
+  text-decoration-color: currentColor;
+}
+
+// =========================
+// Accessibility
+// =========================
+
+a:focus,
+button:focus,
+.nav-link:focus {
+  outline: 3px solid $accent;
+  outline-offset: 2px;
 }
 
 // =========================
@@ -113,6 +141,20 @@ a:hover {
 }
 
 // =========================
+// TOC
+// =========================
+
+#TOC {
+  font-size: 0.95rem;
+  padding-left: 1rem;
+  border-left: 2px solid $accent-light;
+}
+
+#TOC a:hover {
+  color: $primary;
+}
+
+// =========================
 // Headings
 // =========================
 
@@ -127,13 +169,21 @@ h6 {
 }
 
 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
   margin-bottom: 1rem;
 }
 
 h2 {
+  font-size: 2rem;
   margin-top: 2rem;
   border-bottom: 2px solid $accent-light;
   padding-bottom: 0.4rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 // =========================
@@ -145,6 +195,31 @@ h2 {
   border: 1px solid $border-color;
   border-radius: 14px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 10px 24px rgba(
+      0,
+      0,
+      0,
+      0.08
+    );
+}
+
+// =========================
+// Publication & Project Cards
+// =========================
+
+.listing-card {
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 // =========================
@@ -223,7 +298,7 @@ pre {
 .footer,
 .nav-footer {
   border-top: 1px solid $border-color;
-  background-color: #fff4ee;
+  background-color: $navbar-bg;
 }
 
 // =========================
@@ -243,16 +318,5 @@ blockquote {
   background-color: #fff8f4;
   padding: 1rem 1.25rem;
   border-radius: 8px;
-}
-
-// =========================
-// TOC
-// =========================
-
-#TOC {
-  font-size: 0.95rem;
-}
-
-#TOC a:hover {
-  color: $primary;
+  font-style: italic;
 }

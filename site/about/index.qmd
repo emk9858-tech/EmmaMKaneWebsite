@@ -1,0 +1,27 @@
+---
+title: "About Emma"
+subtitle: "Education Research Analyst"
+image: ../assets/images/headshot_profile.jpg
+image-alt: "Headshot of Emma Kane"
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/emk9858-tech/EmmaMKaneWebsite
+page-layout: full
+---
+
+::: {#hero-heading}
+
+I am a researcher, R educator, and data journalist. My research uses electronic health record and spatial data to study the intersection of health equity and urban nature. My journalism and community projects focus on open source tools and data literacy.
+
+:::
+
+## Explore my work
+
+- [Projects](../projects)
+- [Publications](../publication)
