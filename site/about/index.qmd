@@ -53,26 +53,34 @@ My current project with the NTID Research Center on Culture and Language aims to
 
 Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
-:::
-
 ## About me
 
 ::: {.grid}
 
-::: {.g-col-6 #about-me-1}
+::: {.g-col-4 #about-me-1}
 
-**Passionate about how we can apply data to improve educational outcomes for Deaf and Hard of Hearing students during transition points**
+**Research Interests**
 
-I enjoy working with data to answer questions that can help improve educational outcomes for Deaf and Hard of Hearing students. I am particularly interested in how we can use data to improve decision-making during transition points, such as the transition points across the K-12 pipeline, and how can we use data to improve the educational outcomes for Deaf and Hard of Hearing students.  
-
+- Deaf and Hard of Hearing Education 
+- Educational Outcomes 
+- Educational Policy 
+- Data-Driven Decision Making  
+- K-12 Pipeline 
 :::
 
-::: {.g-col-6 #about-me-2}
+::: {.g-col-4 #about-me-2}
 
-**Educational background and experience**
+**Education**
 
-I earned my B.S in Public Policy from the Rochester Institute of Technology (RIT) in 2026 and am currently working on my M.B.A with a concentration in Data Anlaytiucs and Mangement from RIT. I have experience working with data in various settings, including research, education, and community organizations. 
+- B.S. in Public Policy, Rochester Institute of Technology, 2026
+- M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
 
+::: {.g-col-4 #about-me-3}
+
+**Research Experience** 
+- Chief Research Assistant, NTID Research Center on Culture and Language, Rochester Institute of Technology, 2024-Present
+- ASL Contracter, RIT Public Policy, Rochester Institute of Technology, 2025
+- Chief Research Assistant, NTID Deaf Health Care and Biomedical Science Hub, Rochester Institute of Technology, 2023-2026
 
 :::
 
