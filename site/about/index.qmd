@@ -78,9 +78,10 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 - M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
 
 ::: 
-::: {.g-col-4 #about-me-3}
 
-**Feature Research Projects** 
+:::
+
+**Featured Research Projects** 
 
 - Language and Cognition (LAC) Project (2024-Present): Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
 - Access to Research Support (2026): Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
