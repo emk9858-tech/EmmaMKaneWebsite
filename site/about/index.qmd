@@ -59,7 +59,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 ::: {.grid}
 
-::: {.g-col-4 #about-me-1}
+::: {.g-col-6 #about-me-1}
 
 **Research Interests**
 
@@ -70,7 +70,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 - K-12 Pipeline 
 :::
 
-::: {.g-col-4 #about-me-2}
+::: {.g-col-6 #about-me-2}
 
 **Education**
 
@@ -83,9 +83,12 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 **Featured Research Projects** 
 
-- Language and Cognition (LAC) Project (2024-Present): Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
-- Access to Research Support (2026): Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
-- Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026): Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.
+- **Language and Cognition (LAC) Project (2024-Present)**
+Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
+- **Access to Research Support (2026)**
+Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
+- **Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)**
+Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.
 
 ::: 
 
@@ -96,14 +99,14 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 :::: {.grid}
 
-::: {.g-col-4}
+::: {.g-col-6}
 #### Projects
 ::: {#project}
 :::
 [See all &rarr;](../projects){.about-links .subtitle}
 :::
 
-::: {.g-col-4}
+::: {.g-col-6}
 #### Publications
 [See all &rarr;](../publication){.about-links .subtitle}
 :::
