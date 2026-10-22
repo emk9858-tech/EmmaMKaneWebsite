@@ -1,0 +1,21 @@
+---
+title: "Talks"
+page-layout: full
+---
+
+My contributions to research, teaching, and community work.
+
+## Poster Presentations
+
+- **Role**, Organization — Year–Year  
+  Brief description.
+
+## Conference Presentations
+
+- **Role**, Organization — Year–Year  
+  Brief description.
+
+## Other Talks
+
+- **Activity**, Organization — Year–Year  
+  Brief description.
