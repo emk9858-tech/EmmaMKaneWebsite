@@ -1,6 +1,6 @@
 ---
 title: "Emma M. Kane"
-subtitle: Education Research Analyst
+subtitle: "Education Research Analyst"
 image: ../assets/images/headshot_profile.jpg
 
 about:
@@ -11,51 +11,53 @@ about:
   links:
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/emmamkane
+      href: "https://linkedin.com/in/emmamkane"
     - icon: github
-      aria-label: GitHub
-      href: https://github.com/emk9858-tech
+      aria-label: "GitHub"
+      href: "https://github.com/emk9858-tech"
     - text: "ORCID"
-      href: https://orcid.org/0000-0003-1709-1394
+      href: "https://orcid.org/0000-0003-1709-1394"
 
 listing:
-- id: project
-  contents: 
-    - "../projects/*/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-format: 
-  html: 
+  - id: project
+    contents:
+      - "../projects/*/index.qmd"
+    sort: "date desc"
+    type: grid
+    grid-columns: 1
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, subtitle, image]
+    max-items: 1
+    image-height: 200
+
+format:
+  html:
     page-layout: full
 
-header-includes: >
+header-includes: |
   <link rel="stylesheet" href="../assets/about.css">
+
 resources:
   - ../assets/about.css
 ---
 
 ::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
 
-Thanks for stopping by! 
+<div class="h1">Hey, I'm happy you're here!</div>
 
-I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/research-center-culture-and-language) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
-to improve educational outcomes for Deaf and Hard of Hearing students.
+Thanks for stopping by!
 
-My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
+I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/research-center-culture-and-language) at the Rochester Institute of Technology. My research interests include utilizing data to improve educational outcomes for Deaf and Hard of Hearing students.
+
+My current project with the NTID Research Center on Culture and Language aims to develop standardized assessment tools in American Sign Language to evaluate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing older adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/).
 
 Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
+
 :::
 
-
-## About me
+## About Me
 
 ::: {.grid}
 
@@ -63,11 +65,12 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 **Research Interests**
 
-- Deaf and Hard of Hearing Education 
-- Educational Outcomes 
-- Educational Policy 
-- Data-Driven Decision Making  
-- K-12 Pipeline 
+- Deaf and Hard of Hearing education
+- Educational outcomes
+- Educational policy
+- Data-driven decision-making
+- K–12 pipeline
+
 :::
 
 ::: {.g-col-6 #about-me-2}
@@ -75,40 +78,47 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 **Education**
 
 - B.S. in Public Policy, Rochester Institute of Technology, 2026
-- M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
-
-::: 
+- M.B.A. in Data Analytics and Management, Rochester Institute of Technology, expected 2027
 
 :::
 
-**Featured Research Projects** 
-
-- **Language and Cognition (LAC) Project (2024-Present)**
-Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
-- **Access to Research Support (2026)**
-Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
-- **Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)**
-Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.
-
-::: 
-
 :::
-<!-- end grid -->
+
+## Featured Research Projects
+
+**Language and Cognition (LAC) Project (2024–Present)**
+
+Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease among Deaf and Hard of Hearing older adults.
+
+**Access to Research Support (2026)**
+
+Evaluate the accessibility of research-related resources and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology.
+
+**Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023–2026)**
+
+Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education.
 
 ## Lately ...
 
 :::: {.grid}
 
 ::: {.g-col-6}
+
 #### Projects
+
 ::: {#project}
 :::
-[See all &rarr;](../projects){.about-links .subtitle}
+
+[See all →](projects){.about-links .subtitle}
+
 :::
 
 ::: {.g-col-6}
+
 #### Publications
-[See all &rarr;](../publication){.about-links .subtitle}
+
+[See all →](publication){.about-links .subtitle}
+
 :::
 
 ::::
