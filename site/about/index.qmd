@@ -92,14 +92,14 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 :::: {.grid}
 
-::: {.g-col-3}
+::: {.g-col-4}
 #### Projects
 ::: {#project}
 :::
 [See all &rarr;](../projects){.about-links .subtitle}
 :::
 
-::: {.g-col-6}
+::: {.g-col-4}
 #### Publications
 [See all &rarr;](../publication){.about-links .subtitle}
 :::
