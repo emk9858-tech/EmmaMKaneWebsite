@@ -80,10 +80,11 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 ::: 
 ::: {.g-col-4 #about-me-3}
 
-**Research Experience** 
-- Chief Research Assistant, NTID Research Center on Culture and Language, Rochester Institute of Technology, 2024-Present
-- ASL Contracter, RIT Public Policy, Rochester Institute of Technology, 2025
-- Chief Research Assistant, NTID Deaf Health Care and Biomedical Science Hub, Rochester Institute of Technology, 2023-2026
+**Feature Research Projects** 
+
+- Language and Cognition (LAC) Project (2024-Present): Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
+- Access to Research Support (2026): Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
+- Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026): Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.
 
 :::
 
