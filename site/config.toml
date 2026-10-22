@@ -1,8 +1,8 @@
-baseURL = "https://www.emmamariannekane.com/"
+baseURL = "https://emmamariannekane.netlify.appp"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Emma M. Kane"
-author = "Alison Hill"
+author = "Emma M. Kane"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
