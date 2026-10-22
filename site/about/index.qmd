@@ -57,9 +57,9 @@ Thanks for stopping by!
 I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/research-center-culture-and-language) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
 to improve educational outcomes for Deaf and Hard of Hearing students.
 
-My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work on the [project page](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
+My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
 
-Connect with me on[LinkedIn](https://linkedin.com/in/emmamkane).
+Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 :::
 
@@ -69,25 +69,17 @@ Connect with me on[LinkedIn](https://linkedin.com/in/emmamkane).
 
 ::: {.g-col-6 #about-me-1}
 
-**Biomedical engineer turned informaticist, curious about all intersections of data and society.**
+** Passionate about how we can apply data to improve educational outcomes for Deaf and Hard of Hearing students during transition points **
 
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Explore my [projects](/projects) and [presentations](/presentation).
-
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
-</ul>
+I enjoy working with data to answer questions that can help improve educational outcomes for Deaf and Hard of Hearing students. I am particularly interested in how we can use data to improve decision-making during transition points, such as the transition points across the K-12 pipeline, and how can we use data to improve the educational outcomes for Deaf and Hard of Hearing students.  
 
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-Prior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
+** Educational background and experience **
 
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
-</ul>
+I earned my B.S in Public Policy from the Rochester Institute of Technology (RIT) in 2026 and am currently working on my M.B.A with a concentration in Data Anlaytiucs and Mangement from RIT. I have experience working with data in various settings, including research, education, and community organizations. 
 
 :::
 
