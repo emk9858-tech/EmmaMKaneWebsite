@@ -354,7 +354,10 @@ blockquote {
 // ============================================
 
 hr {
-  border-top: 1px solid $border-color;
+  width: 100%;
+  border: 0;
+  border-top: 3px solid $primary;
+  margin: 2.5rem 0;
 }
 
 // ============================================
