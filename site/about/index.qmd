@@ -122,12 +122,4 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 :::
 
-::: {.g-col-6}
-
-#### Publications
-
-[See all →](../publication/){.about-links .subtitle}
-
-:::
-
 ::::
