@@ -15,8 +15,6 @@ about:
     - icon: github
       aria-label: GitHub
       href: https://github.com/emk9858-tech
-    - text: "ORCID"
-      href: https://orcid.org/0000-0003-1709-1394
 
 listing:
 - id: project
@@ -54,68 +52,77 @@ My current project with the NTID Research Center on Culture and Language aims to
 Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 :::
 
+## About Me
 
-## About me
-
-::: {.grid}
+:::: {.grid}
 
 ::: {.g-col-6 #about-me-1}
 
-**Research Interests**
+### Research Interests
 
-- Deaf and Hard of Hearing Education 
-- Educational Outcomes 
-- Educational Policy 
-- Data-Driven Decision Making  
-- K-12 Pipeline 
+- Deaf and Hard of Hearing Education
+- Educational Outcomes
+- Education Policy
+- Data-Informed Decision Making
+- Postsecondary Access and Success
+- K-12 to Postsecondary Transitions
+
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-**Education**
+### Education
 
-- B.S. in Public Policy, Rochester Institute of Technology, 2026
-- M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
+- **B.S. in Public Policy**, Rochester Institute of Technology (Expected 2026)
+- **M.B.A. in Management and Data Analytics**, Rochester Institute of Technology (Expected 2027)
 
-::: 
-<!-- end grid -->
- 
+:::
 
-**Skills & Methods**
-*   Quantitative Data Analysis (R, Stata, SQL, Excel)
-*   Qualitative Research & Coding (Dedoose)
-*   Program Evaluation
-*   Survey Design & Data Collection
-*   Data Visualization & Reporting
-*   Policy Analysis
-*   Mixed-Methods Research
-*   Data Management & Quality Assurance
+::::
 
-**Featured Research Projects** 
+### Skills & Methods
 
-- **Language and Cognition (LAC) Project (2024-Present)** 
-Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer's disease for Deaf and Hard of Hearing older adults. 
+- Quantitative Data Analysis (R, Stata, SQL, Excel)
+- Qualitative Research and Coding (Dedoose)
+- Mixed-Methods Research
+- Program Evaluation
+- Survey Design and Data Collection
+- Data Visualization and Reporting
+- Policy Analysis
+- Data Management and Quality Assurance
 
-- **Access to Research Support for Deaf and Hard of Hearing Students (2026)**
-Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology. 
+### Featured Research Projects
 
-- **Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)**
-Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.
+- **Language and Cognition (LAC) Project (2024-Present)**  
+  Contribute to the development and validation of neuropsychological assessment tools in American Sign Language designed to improve dementia and Alzheimer's disease screening for Deaf and Hard of Hearing older adults.
 
-## Lately ...
+- **Access to Research Support for Deaf and Hard of Hearing Students (2026)**  
+  Evaluated the accessibility of research-related resources, mentorship opportunities, and institutional support available to Deaf and Hard of Hearing students at Rochester Institute of Technology.
+
+- **Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)**  
+  Examined barriers to reproductive health education and healthcare access and developed recommendations to improve health equity for Deaf and Hard of Hearing communities.
+
+## Recent Work
 
 :::: {.grid}
 
 ::: {.g-col-6}
+
 #### Projects
+
 ::: {#project}
 :::
-[See all &rarr;](../projects){.about-links .subtitle}
+
+../projects{.about-links .subtitle}
+
 :::
 
 ::: {.g-col-6}
+
 #### Publications
-[See all &rarr;](../publication/index.html){.about-links .subtitle}
+
+../publication/{.about-links .subtitle}
+
 :::
 
 ::::
