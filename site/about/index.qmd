@@ -50,8 +50,6 @@ to improve educational outcomes for Deaf and Hard of Hearing students.
 My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
 
 Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
-:::
-
 ## About Me
 
 :::: {.grid}
@@ -113,6 +111,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 ::: {#project}
 :::
 
+[See all →](../projects/){.about-links .subtitle}
 
 :::
 
@@ -121,6 +120,10 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 #### Publications
 
 ::: {#publication}
+:::
+
+[See all →](../publication/){.about-links .subtitle}
+
 :::
 
 ::::
