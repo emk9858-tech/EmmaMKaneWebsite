@@ -1,5 +1,5 @@
 ---
-title: "Jack's General Store: Developing a Inventory Mangement System""
+title: "Jack's General Store: Developing a Inventory Mangement System"
 description: "This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr. Eunju Kang."
 date: 2026-04
 image: /projects/EHDI-project/EHDI_Policy_Analysis.png
