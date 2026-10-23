@@ -113,7 +113,6 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 ::: {#project}
 :::
 
-../projects{.about-links .subtitle}
 
 :::
 
@@ -121,8 +120,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 #### Publications
 
-../publication/{.about-links .subtitle}
-
+::: {#publication}
 :::
 
 ::::
