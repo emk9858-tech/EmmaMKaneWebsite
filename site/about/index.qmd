@@ -29,15 +29,6 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: publication
-  contents:
-    - "../publication/index.qmd"
-  type: grid
-  grid-columns: 1
-  max-items: 1
-  sort-ui: false
-  filter-ui: false
-  fields: [title]
 format: 
   html: 
     page-layout: full
@@ -134,9 +125,6 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 ::: {.g-col-6}
 
 #### Publications
-
-::: {#publication}
-:::
 
 [See all →](../publication/){.about-links .subtitle}
 
