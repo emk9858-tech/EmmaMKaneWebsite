@@ -126,7 +126,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 #### Publications
 
-[View my publication →](../publication/){.about-links .subtitle}
+[View my publications →](../publication/){.about-links .subtitle}
 
 :::
 
