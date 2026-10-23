@@ -99,6 +99,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publication .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publication'] = new List('listing-publication', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <link rel="stylesheet" href="../assets/about.css">
 
@@ -215,54 +243,73 @@ window.Quarto = {
     <i class="bi bi-github"></i>
      <span class="about-link-text"></span>
   </a>
-  <a href="https://orcid.org/0000-0003-1709-1394" class="about-link" rel="" target="">
-     <span class="about-link-text">ORCID</span>
-  </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<div class="h1">
-Hey, I’m happy you’re here
-</div>
+<section id="hey-im-happy-youre-here" class="level1">
+<h1>Hey, I’m happy you’re here</h1>
 <p>Thanks for stopping by!</p>
-<p>I work as a research assistant at the <a href="https://www.rit.edu/ntid/ccl">NTID Research Center on Culture and Language</a> at the Rochester Institute of Technology. My research intrests inlcude utilizing data to improve educational outcomes for Deaf and Hard of Hearing students.</p>
-<p>My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer’s disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work <a href="https://pubmed.ncbi.nlm.nih.gov/41642783/">here</a>.</p>
+<p>I work as a Research Assistant at the <a href="https://www.rit.edu/ntid/ccl">NTID Research Center on Culture and Language</a> at Rochester Institute of Technology.</p>
+<p>My research interests focus on using data to improve educational outcomes for Deaf and Hard of Hearing students.</p>
+<p>My current project with the NTID Research Center on Culture and Language aims to develop standardized assessment tools in American Sign Language to evaluate and screen for Alzheimer’s disease and dementia among Deaf and Hard of Hearing older adults. Learn more about our work <a href="https://pubmed.ncbi.nlm.nih.gov/41642783/">here</a>.</p>
 <p>Connect with me on <a href="https://linkedin.com/in/emmamkane">LinkedIn</a>.</p>
+</section>
 </div></div>
 </div>
 
 <section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
+<h2 data-anchor-id="about-me">About Me</h2>
 <div class="grid">
 <div id="about-me-1" class="g-col-6">
-<p><strong>Research Interests</strong></p>
+<section id="research-interests" class="level3">
+<h3 data-anchor-id="research-interests">Research Interests</h3>
 <ul>
 <li>Deaf and Hard of Hearing Education</li>
 <li>Educational Outcomes</li>
-<li>Educational Policy</li>
-<li>Data-Driven Decision Making<br>
-</li>
-<li>K-12 Pipeline</li>
-</ul>
-</div>
-<div id="about-me-2" class="g-col-6">
-<p><strong>Education</strong></p>
-<ul>
-<li>B.S. in Public Policy, Rochester Institute of Technology, 2026</li>
-<li>M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027</li>
-</ul>
-</div>
-</div>
-<!-- end grid -->
-<p><strong>Featured Research Projects</strong></p>
-<ul>
-<li><p><strong>Language and Cognition (LAC) Project (2024-Present)</strong> Create and validate neuropsychological assessment tools in American Sign Language to screen for dementia and Alzheimer’s disease for Deaf and Hard of Hearing older adults.</p></li>
-<li><p><strong>Access to Research Support for Deaf and Hard of Hearing Students (2026)</strong> Evaluate the accessibility of research-related reosurces and support for Deaf and Hard of Hearing students at the Rochester Institute of Technology.</p></li>
-<li><p><strong>Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)</strong> Evaluate the reproductive health experiences of Deaf and Hard of Hearing individuals and provide recommendations to improve access to reproductive health care and education for Deaf and Hard of Hearing individuals.</p></li>
+<li>Education Policy</li>
+<li>Data-Informed Decision Making</li>
+<li>Postsecondary Access and Success</li>
+<li>K-12 to Postsecondary Transitions</li>
 </ul>
 </section>
-<section id="lately" class="level2">
-<h2 data-anchor-id="lately">Lately …</h2>
+</div>
+<div id="about-me-2" class="g-col-6">
+<section id="education" class="level3">
+<h3 data-anchor-id="education">Education</h3>
+<ul>
+<li><strong>B.S. in Public Policy</strong>, Rochester Institute of Technology (Expected 2026)</li>
+<li><strong>M.B.A. in Management and Data Analytics</strong>, Rochester Institute of Technology (Expected 2027)</li>
+</ul>
+</section>
+</div>
+</div>
+<section id="skills-methods" class="level3">
+<h3 data-anchor-id="skills-methods">Skills &amp; Methods</h3>
+<ul>
+<li>Quantitative Data Analysis (R, Stata, SQL, Excel)</li>
+<li>Qualitative Research and Coding (Dedoose)</li>
+<li>Mixed-Methods Research</li>
+<li>Program Evaluation</li>
+<li>Survey Design and Data Collection</li>
+<li>Data Visualization and Reporting</li>
+<li>Policy Analysis</li>
+<li>Data Management and Quality Assurance</li>
+</ul>
+</section>
+<section id="featured-research-projects" class="level3">
+<h3 data-anchor-id="featured-research-projects">Featured Research Projects</h3>
+<ul>
+<li><p><strong>Language and Cognition (LAC) Project (2024-Present)</strong><br>
+Contribute to the development and validation of neuropsychological assessment tools in American Sign Language designed to improve dementia and Alzheimer’s disease screening for Deaf and Hard of Hearing older adults.</p></li>
+<li><p><strong>Access to Research Support for Deaf and Hard of Hearing Students (2026)</strong><br>
+Evaluated the accessibility of research-related resources, mentorship opportunities, and institutional support available to Deaf and Hard of Hearing students at Rochester Institute of Technology.</p></li>
+<li><p><strong>Reproductive Health Experiences of Deaf and Hard of Hearing Individuals (2023-2026)</strong><br>
+Examined barriers to reproductive health education and healthcare access and developed recommendations to improve health equity for Deaf and Hard of Hearing communities.</p></li>
+</ul>
+</section>
+</section>
+<section id="recent-work" class="level2">
+<h2 data-anchor-id="recent-work">Recent Work</h2>
 <div class="grid">
 <section id="projects" class="level4 g-col-6">
 <h4 data-anchor-id="projects">Projects</h4>
@@ -284,11 +331,26 @@ Early Hearing Detection and Intervention Program Policy Analysis: Expanding Beyo
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-<p><a href="../projects" class="about-links subtitle">See all →</a></p>
+<p><a href="../projects/" class="about-links subtitle">See all →</a></p>
 </section>
 <section id="publications" class="level4 g-col-6">
 <h4 data-anchor-id="publications">Publications</h4>
-<p><a href="../publication/index.html" class="about-links subtitle">See all →</a></p>
+<div id="listing-publication" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-1">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1792776959471" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="../publication/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Publications
+</h5>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p><a href="../publication/" class="about-links subtitle">See all →</a></p>
 </section>
 </div>
 
