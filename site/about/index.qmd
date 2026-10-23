@@ -96,10 +96,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 - Policy Analysis
 - Data Management and Quality Assurance
 
----
-
-
-### Featured Research Projects
+## Featured Research Projects
 
 - **Language and Cognition (LAC) Project (2024-Present)**  
   Contribute to the development and validation of neuropsychological assessment tools in American Sign Language designed to improve dementia and Alzheimer's disease screening for Deaf and Hard of Hearing older adults.
