@@ -85,7 +85,7 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 
 ::::
 
-### Skills & Methods
+### Skills<br>& Methods
 
 - Quantitative Data Analysis (R, Stata, SQL, Excel)
 - Qualitative Research and Coding (Dedoose)
