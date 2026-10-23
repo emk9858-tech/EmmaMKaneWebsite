@@ -2,13 +2,15 @@
   {
     "listing": "/projects/index.html",
     "items": [
-      "/projects/EHDI-project/index.html"
+      "/projects/EHDI-project/index.html",
+      "/projects/Jack-General-Store/index.html"
     ]
   },
   {
     "listing": "/about/index.html",
     "items": [
-      "/projects/EHDI-project/index.html"
+      "/projects/EHDI-project/index.html",
+      "/projects/Jack-General-Store/index.html"
     ]
   }
 ]
