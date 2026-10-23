@@ -78,7 +78,8 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 - M.B.A in Data Analytics and Management, Rochester Institute of Technology, 2027
 
 ::: 
-::: {.g-col-6 #about-me-3}
+<!-- end grid -->
+ 
 
 **Skills & Methods**
 *   Quantitative Data Analysis (R, Stata, SQL, Excel)
@@ -89,9 +90,6 @@ Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
 *   Policy Analysis
 *   Mixed-Methods Research
 *   Data Management & Quality Assurance
-:::
-:::
-<!-- end grid -->
 
 **Featured Research Projects** 
 
