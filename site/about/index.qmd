@@ -40,16 +40,23 @@ resources:
 ---
 
 ::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
 
-Thanks for stopping by! 
+# Hey, I'm happy you're here
 
-I work as a research assistant at the [NTID Research Center on Culture and Language](https://www.rit.edu/ntid/ccl) at the Rochester Institute of Technology. My research intrests inlcude utilizing data 
-to improve educational outcomes for Deaf and Hard of Hearing students.
+Thanks for stopping by!
 
-My current project with the NTID Research Center on Culture and Language aims to develop standardized assestment tools in American Sign Language to evaulate and screen for Alzheimer's disease and dementia in Deaf and Hard of Hearing Older Adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/). 
+I work as a Research Assistant at the
+[NTID Research Center on Culture and Language](https://www.rit.edu/ntid/ccl)
+at Rochester Institute of Technology.
+
+My research interests focus on using data to improve educational outcomes for Deaf and Hard of Hearing students.
+
+My current project with the NTID Research Center on Culture and Language aims to develop standardized assessment tools in American Sign Language to evaluate and screen for Alzheimer's disease and dementia among Deaf and Hard of Hearing older adults. Learn more about our work [here](https://pubmed.ncbi.nlm.nih.gov/41642783/).
 
 Connect with me on [LinkedIn](https://linkedin.com/in/emmamkane).
+
+:::
+
 ## About Me
 
 :::: {.grid}
