@@ -4,6 +4,7 @@ description: "This project was completed in fullfillment of the requirements of 
 date: 2026-08
 image: /projects/Jack-General-Store/heading_page.png
 categories: [Data Management, SQL]
+lightbox: true
 ---
 
 ## Project Description
@@ -32,37 +33,37 @@ The completed application allows store employees to efficiently manage product i
 ::: {.grid}
 
 ::: {.g-col-3}
-![](heading_page.png){width="100%"}
+![](heading_page.png)
 **Homepage**
 :::
 
 ::: {.g-col-3}
-![](products_glance.png){width="100%"}
+![](products_glance.png)
 **Products**
 :::
 
 ::: {.g-col-3}
-![](add_a_new_product.png){width="100%"}
+![](add_a_new_product.png)
 **Add Product**
 :::
 
 ::: {.g-col-3}
-![](update_inventory.png){width="100%"}
-**Inventory Form**
+![](update_inventory.png)
+**Inventory**
 :::
 
 ::: {.g-col-3}
-![](inventory_dashboard.png){width="100%"}
+![](inventory_dashboard.png)
 **Dashboard**
 :::
 
 ::: {.g-col-3}
-![](inventory_dashboard_2.png){width="100%"}
+![](inventory_dashboard_2.png)
 **Product Table**
 :::
 
 ::: {.g-col-3}
-![](allergen_form.png){width="100%"}
+![](allergen_form.png)
 **Allergen Form**
 :::
 
