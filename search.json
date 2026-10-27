@@ -39,28 +39,35 @@
     "href": "projects/Jack-General-Store/index.html",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "",
-    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses ## Project Deliverables\n\nCreate a database schema for the inventory management system, including tables for products, inventory, and sales.\nProvide a user-friendly interface for store employees to add, update, and delete product information.\nImplement a reporting system that allows the store manager to generate reports on sales and inventory trends."
+    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses"
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#project-description",
     "href": "projects/Jack-General-Store/index.html#project-description",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "",
-    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses ## Project Deliverables\n\nCreate a database schema for the inventory management system, including tables for products, inventory, and sales.\nProvide a user-friendly interface for store employees to add, update, and delete product information.\nImplement a reporting system that allows the store manager to generate reports on sales and inventory trends."
+    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses"
+  },
+  {
+    "objectID": "projects/Jack-General-Store/index.html#project-deliverables",
+    "href": "projects/Jack-General-Store/index.html#project-deliverables",
+    "title": "Jack’s General Store: Developing a Inventory Mangement System",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nCreate a database schema for the inventory management system, including tables for products, inventory, and sales.\nProvide a user-friendly interface for store employees to add, update, and delete product information.\nImplement a reporting system that allows the store manager to generate reports on sales and inventory trends."
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#technical-design-and-implementation",
     "href": "projects/Jack-General-Store/index.html#technical-design-and-implementation",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "Technical Design and Implementation",
-    "text": "Technical Design and Implementation\nThe system was built using Oracle SQL and Oracle APEX and included: - Product table - Inventory table - Sales table - Allergen table - Product-Allergen junction table The database design enforced referential integrity through primary and foreign key relationships while supporting inventory tracking and reporting functionalities."
+    "text": "Technical Design and Implementation\nThe system was built using Oracle SQL and Oracle APEX and included:\n\nProduct table\nInventory table\nSales table\nAllergen table\nProduct-Allergen junction table\n\nThe database design enforced referential integrity through primary and foreign key relationships while supporting inventory tracking and reporting functionalities."
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#project-outcomes",
     "href": "projects/Jack-General-Store/index.html#project-outcomes",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "Project Outcomes",
-    "text": "Project Outcomes\nThe completed application supports product intake, inventory updates, allergen tracking, and inventory reporting.\n\n\n\nProducts at a Glance\n\n\n\n\n\nAdd New Product form\n\n\n\n\n\nUpdate Inventory form\n\n\n\n\n\nInventory Dashboard\n\n\n\n\n\nInventory Dashboard product table\n\n\n\n\n\nAdd Allergen form"
+    "text": "Project Outcomes\nThe completed application allows store employees to efficiently manage product information, track inventory levels, and generate sales reports. The system’s user-friendly interface and robust database design contribute to improved operational efficiency and data accuracy for the simulated retail business.\n\n\n Homepage\n\n\n Products\n\n\n Add Product\n\n\n Inventory Form\n\n\n Dashboard\n\n\n Product Table\n\n\n Allergen Form"
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#project-assumptions",
