@@ -85,46 +85,6 @@ Maintain allergen information.
 :::
 :::
 
-:::
-
-::: {.grid}
-
-::: {.g-col-3}
-![](heading_page.png){width="100%"}
-**Homepage**
-:::
-
-::: {.g-col-3}
-![](products_glance.png){width="100%"}
-**Products**
-:::
-
-::: {.g-col-3}
-![](add_a_new_product.png){width="100%"}
-**Add Product**
-:::
-
-::: {.g-col-3}
-![](update_inventory.png){width="100%"}
-**Inventory Form**
-:::
-
-::: {.g-col-3}
-![](inventory_dashboard.png){width="100%"}
-**Dashboard**
-:::
-
-::: {.g-col-3}
-![](inventory_dashboard_2.png){width="100%"}
-**Product Table**
-:::
-
-::: {.g-col-3}
-![](allergen_form.png){width="100%"}
-**Allergen Form**
-:::
-
-:::
 ## Project Assumptions 
 - 10 data projects are provided for this demonstration 
 - All data constraints and primary keys are met and assumed to be unique or auto-generated
