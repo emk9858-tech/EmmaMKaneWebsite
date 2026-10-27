@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-6458f7708507357ec875eb07f1e4ade1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,25 +201,60 @@ ul.task-list li input[type="checkbox"] {
 <p>The completed application allows store employees to efficiently manage product information, track inventory levels, and generate sales reports. The system’s user-friendly interface and robust database design contribute to improved operational efficiency and data accuracy for the simulated retail business.</p>
 <div class="grid">
 <div class="g-col-3">
-<p><img src="heading_page.png" class="img-fluid" style="width:100.0%"> <strong>Homepage</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="heading_page.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Homepage"><img src="heading_page.png" class="img-fluid figure-img" alt="Homepage"></a></p>
+<figcaption>Homepage</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="products_glance.png" class="img-fluid" style="width:100.0%"> <strong>Products</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="products_glance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Products at a Glance"><img src="products_glance.png" class="img-fluid figure-img" alt="Products at a Glance"></a></p>
+<figcaption>Products at a Glance</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="add_a_new_product.png" class="img-fluid" style="width:100.0%"> <strong>Add Product</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="add_a_new_product.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Add New Product Form"><img src="add_a_new_product.png" class="img-fluid figure-img" alt="Add New Product Form"></a></p>
+<figcaption>Add New Product Form</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="update_inventory.png" class="img-fluid" style="width:100.0%"> <strong>Inventory Form</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="update_inventory.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Update Inventory Form"><img src="update_inventory.png" class="img-fluid figure-img" alt="Update Inventory Form"></a></p>
+<figcaption>Update Inventory Form</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="inventory_dashboard.png" class="img-fluid" style="width:100.0%"> <strong>Dashboard</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="inventory_dashboard.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Inventory Dashboard"><img src="inventory_dashboard.png" class="img-fluid figure-img" alt="Inventory Dashboard"></a></p>
+<figcaption>Inventory Dashboard</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="inventory_dashboard_2.png" class="img-fluid" style="width:100.0%"> <strong>Product Table</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="inventory_dashboard_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Product Table"><img src="inventory_dashboard_2.png" class="img-fluid figure-img" alt="Product Table"></a></p>
+<figcaption>Product Table</figcaption>
+</figure>
+</div>
 </div>
 <div class="g-col-3">
-<p><img src="allergen_form.png" class="img-fluid" style="width:100.0%"> <strong>Allergen Form</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="allergen_form.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Add Allergen Form"><img src="allergen_form.png" class="img-fluid figure-img" alt="Add Allergen Form"></a></p>
+<figcaption>Add Allergen Form</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -659,6 +697,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
