@@ -25,7 +25,19 @@ The database design enforced referential integrity through primary and foreign k
 
 ## Project Outcomes 
 
-- Heading Page: ![Heading Page](heading_page.png)
+The completed application supports product intake, inventory updates, allergen tracking, and inventory reporting.
+
+![Products at a Glance](products_glance.png)
+
+![Add New Product form](add_a_new_product.png)
+
+![Update Inventory form](update_inventory.png)
+
+![Inventory Dashboard](inventory_dashboard%20.png)
+
+![Inventory Dashboard product table](inventory_dashboard_2.png)
+
+![Add Allergen form](<Screenshot 2026-10-27 at 2.23.47 PM.png>)
 
 
 ## Project Assumptions 
@@ -40,9 +52,5 @@ The database design enforced referential integrity through primary and foreign k
 ## Project Limitations 
  - One technical challenge involved automating updates between the product-allergen junction table and related inventory forms within Oracle APEX. To maintain data integrity, an alternative workflow was implemented that allowed managers to manually update allergen information while ensuring the inventory dashboard reflected the most recent records.
  - This challenge strengthened my understanding of many-to-many database relationships, junction tables, and form automation within database-driven applications.
-
-## View the Presentation 
-
-[Open the presentation PDF](PUBL360-Jack-General-Store.pdf)
 
 
