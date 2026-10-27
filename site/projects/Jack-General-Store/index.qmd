@@ -20,7 +20,6 @@ The system was built using Oracle SQL and Oracle APEX and included:
 
 - Product table
 - Inventory table
-- Sales table
 - Allergen table
 - Product-Allergen junction table
 
