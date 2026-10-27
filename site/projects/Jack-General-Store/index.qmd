@@ -1,9 +1,9 @@
 ---
 title: "Jack's General Store: Developing a Inventory Mangement System"
-description: "This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr. Eunju Kang."
+description: "This project was completed in fullfillment of the requirements of my class, MGIS 725: Database Management and Analytics."
 date: 2026-08
 image: /projects/Jack-General-Store/heading_page.png
-categories: [Education, Deafness, Public Policy]
+categories: [Data Management, SQL]
 ---
 
 ## Project Description
