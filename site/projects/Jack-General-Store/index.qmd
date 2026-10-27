@@ -16,30 +16,115 @@ This project involved designing and implementing a relational inventory manageme
 
 ## Technical Design and Implementation 
 The system was built using Oracle SQL and Oracle APEX and included:
+
 - Product table
 - Inventory table
 - Sales table
 - Allergen table
 - Product-Allergen junction table
+
 The database design enforced referential integrity through primary and foreign key relationships while supporting inventory tracking and reporting functionalities. 
 
 ## Project Outcomes 
 
-The completed application supports product intake, inventory updates, allergen tracking, and inventory reporting.
+The completed application allows store employees to efficiently manage product information, track inventory levels, and generate sales reports. The system's user-friendly interface and robust database design contribute to improved operational efficiency and data accuracy for the simulated retail business. 
 
+::: {.grid}
+
+::: {.g-col-4}
+::: {.card}
+![Landing Homepage](heading_page.png)
+
+### Landing Homepage
+Navigation hub for all system functions.
+:::
+:::
+
+::: {.g-col-4}
+::: {.card}
 ![Products at a Glance](products_glance.png)
 
-![Add New Product form](add_a_new_product.png)
+### Products at a Glance
+View and search product records.
+:::
+:::
 
-![Update Inventory form](update_inventory.png)
+::: {.g-col-4}
+::: {.card}
+![Add Product](add_a_new_product.png)
 
-![Inventory Dashboard](inventory_dashboard%20.png)
+### Add Product
+Create new product entries.
+:::
+:::
 
-![Inventory Dashboard product table](inventory_dashboard_2.png)
+::: {.g-col-4}
+::: {.card}
+![Update Inventory](update_inventory.png)
 
-![Add Allergen form](allergen_form.png)
+### Update Inventory
+Record inventory changes.
+:::
+:::
 
+::: {.g-col-4}
+::: {.card}
+![Dashboard](inventory_dashboard.png)
 
+### Dashboard
+View inventory trends and status.
+:::
+:::
+
+::: {.g-col-4}
+::: {.card}
+![Allergen Form](allergen_form.png)
+
+### Allergen Form
+Maintain allergen information.
+:::
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-3}
+![](heading_page.png){width="100%"}
+**Homepage**
+:::
+
+::: {.g-col-3}
+![](products_glance.png){width="100%"}
+**Products**
+:::
+
+::: {.g-col-3}
+![](add_a_new_product.png){width="100%"}
+**Add Product**
+:::
+
+::: {.g-col-3}
+![](update_inventory.png){width="100%"}
+**Inventory Form**
+:::
+
+::: {.g-col-3}
+![](inventory_dashboard.png){width="100%"}
+**Dashboard**
+:::
+
+::: {.g-col-3}
+![](inventory_dashboard_2.png){width="100%"}
+**Product Table**
+:::
+
+::: {.g-col-3}
+![](allergen_form.png){width="100%"}
+**Allergen Form**
+:::
+
+:::
 ## Project Assumptions 
 - 10 data projects are provided for this demonstration 
 - All data constraints and primary keys are met and assumed to be unique or auto-generated
