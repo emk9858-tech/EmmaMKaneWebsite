@@ -31,58 +31,41 @@ The completed application allows store employees to efficiently manage product i
 
 ::: {.grid}
 
-::: {.g-col-4}
-::: {.card}
-![Landing Homepage](heading_page.png)
-
-### Landing Homepage
-Navigation hub for all system functions.
-:::
+::: {.g-col-3}
+![](heading_page.png){width="100%"}
+**Homepage**
 :::
 
-::: {.g-col-4}
-::: {.card}
-![Products at a Glance](products_glance.png)
-
-### Products at a Glance
-View and search product records.
-:::
+::: {.g-col-3}
+![](products_glance.png){width="100%"}
+**Products**
 :::
 
-::: {.g-col-4}
-::: {.card}
-![Add Product](add_a_new_product.png)
-
-### Add Product
-Create new product entries.
-:::
+::: {.g-col-3}
+![](add_a_new_product.png){width="100%"}
+**Add Product**
 :::
 
-::: {.g-col-4}
-::: {.card}
-![Update Inventory](update_inventory.png)
-
-### Update Inventory
-Record inventory changes.
-:::
+::: {.g-col-3}
+![](update_inventory.png){width="100%"}
+**Inventory Form**
 :::
 
-::: {.g-col-4}
-::: {.card}
-![Dashboard](inventory_dashboard.png)
-
-### Dashboard
-View inventory trends and status.
-:::
+::: {.g-col-3}
+![](inventory_dashboard.png){width="100%"}
+**Dashboard**
 :::
 
-::: {.g-col-4}
-::: {.card}
-![Allergen Form](allergen_form.png)
-
-### Allergen Form
-Maintain allergen information.
+::: {.g-col-3}
+![](inventory_dashboard_2.png){width="100%"}
+**Product Table**
 :::
+
+::: {.g-col-3}
+![](allergen_form.png){width="100%"}
+**Allergen Form**
+:::
+
 :::
 
 ## Project Assumptions 
