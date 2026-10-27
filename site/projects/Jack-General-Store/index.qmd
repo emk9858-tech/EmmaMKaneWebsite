@@ -1,37 +1,48 @@
 ---
 title: "Jack's General Store: Developing a Inventory Mangement System"
 description: "This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr. Eunju Kang."
-date: 2026-04
-image: /projects/EHDI-project/EHDI_Policy_Analysis.png
+date: 2026-08
+image: /projects/Jack-General-Store/heading_page.png
 categories: [Education, Deafness, Public Policy]
 ---
 
 ## Project Description
-
-The purpose of the Early Hearing Detection and Intervention is to prevent more cases of not getting treatment for hearing loss; however, deaf community members and scholars have argued that the program is not designed to accomplish language development, since it heavily focuses on the medical perspective of hearing loss.  
-
-Early intervention programs have become a vital social program for all infants, including the Deaf and Hard of Hearing infants, ensuring developmental and cognitive milestones. Findings will inform policy design and implementaiton of the Early Hearing Detection and Intervention program using the California's Language Equality and Acquisition for Deaf Kids (LEAD-K) framework to ensure that the program is designed to support language development for Deaf and Hard of Hearing infants.
-
-To ensure that this project meets the requirements of "Honors Option" for the RIT Honors Program, the goals of the Honors Options are to engage in scholarly discosure and dissemination with the RIT community, to enchance my understanding of social policy and inequities, the following project deliverables will be completed to meet the requirements of the Honors Option. 
-
+This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses
 ## Project Deliverables 
 
-- Literature review and data anlaysis to create a policy analysis of the Early Hearing Detection and Intervention Program as a requirement of my PUBL 360 course. 
-- Present the policy analysis at the NTID Research Fair in April 2026, fulfillign the requirement of schoarly dissemination for my Honors Option project. 
-- Present the policy anlaysis in the classroom to my peers and faculty in the PUBL 360 course, fulfilling the project requirements. 
+- Create a database schema for the inventory management system, including tables for products, inventory, and sales. 
+- Provide a user-friendly interface for store employees to add, update, and delete product information.
+- Implement a reporting system that allows the store manager to generate reports on sales and inventory trends. 
 
-## Methods and Tools
+## Technical Design and Implementation 
+The system was built using Oracle SQL and Oracle APEX and included:
+- Product table
+- Inventory table
+- Sales table
+- Allergen table
+- Product-Allergen junction table
+The database design enforced referential integrity through primary and foreign key relationships while supporting inventory tracking and reporting functionalities. 
 
-Project Design: 
+## Project Outcomes 
 
-## Policy Recommendations  
-
-
+- Heading Page: ![Heading Page](heading_page.png)
 
 
+## Project Assumptions 
+- 10 data projects are provided for this demonstration 
+- All data constraints and primary keys are met and assumed to be unique or auto-generated
+- Automated data storage is provided when the new product is recorded in the new product intake, including allergens and inventory.
+- Products can have multiple allergens. Inventory is assumed to reference one product. 
+- Queries are valid and assumed
+- The business manager must manually change any allergen to any product by filling out a new allergen form and a new product intake, then the inventory dashboard is recorded based on recency. 
+- The inventory table records all inventory transactions, meaning all products are recounted on each inventory-recording day.
+
+## Project Limitations 
+ - One technical challenge involved automating updates between the product-allergen junction table and related inventory forms within Oracle APEX. To maintain data integrity, an alternative workflow was implemented that allowed managers to manually update allergen information while ensuring the inventory dashboard reflected the most recent records.
+ - This challenge strengthened my understanding of many-to-many database relationships, junction tables, and form automation within database-driven applications.
 
 ## View the Presentation 
 
-[Open the presentation PDF](PUBL360-EHDI.pdf)
+[Open the presentation PDF](PUBL360-Jack-General-Store.pdf)
 
 
