@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2026-08-01">
-<meta name="description" content="This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr.&nbsp;Eunju Kang.">
+<meta name="description" content="This project was completed in fullfillment of the requirements of my class, MGIS 725: Database Management and Analytics.">
 
 <title>Jack’s General Store: Developing a Inventory Mangement System – Emma Kane</title>
 <style>
@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-6458f7708507357ec875eb07f1e4ade1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta name="twitter:title" content="Jack’s General Store: Developing a Inventory Mangement System – Emma Kane">
-<meta name="twitter:description" content="This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr.&nbsp;Eunju Kang.">
+<meta name="twitter:description" content="This project was completed in fullfillment of the requirements of my class, MGIS 725: Database Management and Analytics.">
 <meta name="twitter:image" content="https://emmamariannekane.com/projects/Jack-General-Store/heading_page.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="572">
@@ -139,15 +142,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title">
 <h1 class="title">Jack’s General Store: Developing a Inventory Mangement System</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Education</div>
-    <div class="quarto-category">Deafness</div>
-    <div class="quarto-category">Public Policy</div>
+    <div class="quarto-category">Data Management</div>
+    <div class="quarto-category">SQL</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    This project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the supervisor of Dr.&nbsp;Eunju Kang.
+    This project was completed in fullfillment of the requirements of my class, MGIS 725: Database Management and Analytics.
   </div>
 </div>
 
@@ -185,9 +187,43 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="project-outcomes" class="level2">
 <h2 class="anchored" data-anchor-id="project-outcomes">Project Outcomes</h2>
-<ul>
-<li>Heading Page: <img src="heading_page.png" class="img-fluid" alt="Heading Page"></li>
-</ul>
+<p>The completed application supports product intake, inventory updates, allergen tracking, and inventory reporting.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="products_glance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Products at a Glance"><img src="products_glance.png" class="img-fluid figure-img" alt="Products at a Glance"></a></p>
+<figcaption>Products at a Glance</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="add_a_new_product.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Add New Product form"><img src="add_a_new_product.png" class="img-fluid figure-img" alt="Add New Product form"></a></p>
+<figcaption>Add New Product form</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="update_inventory.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Update Inventory form"><img src="update_inventory.png" class="img-fluid figure-img" alt="Update Inventory form"></a></p>
+<figcaption>Update Inventory form</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="inventory_dashboard .png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Inventory Dashboard"><img src="inventory_dashboard .png" class="img-fluid figure-img" alt="Inventory Dashboard"></a></p>
+<figcaption>Inventory Dashboard</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="inventory_dashboard_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Inventory Dashboard product table"><img src="inventory_dashboard_2.png" class="img-fluid figure-img" alt="Inventory Dashboard product table"></a></p>
+<figcaption>Inventory Dashboard product table</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Screenshot 2026-10-27 at 2.23.47 PM.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Add Allergen form"><img src="Screenshot 2026-10-27 at 2.23.47 PM.png" class="img-fluid figure-img" alt="Add Allergen form"></a></p>
+<figcaption>Add Allergen form</figcaption>
+</figure>
+</div>
 </section>
 <section id="project-assumptions" class="level2">
 <h2 class="anchored" data-anchor-id="project-assumptions">Project Assumptions</h2>
@@ -207,10 +243,6 @@ ul.task-list li input[type="checkbox"] {
 <li>One technical challenge involved automating updates between the product-allergen junction table and related inventory forms within Oracle APEX. To maintain data integrity, an alternative workflow was implemented that allowed managers to manually update allergen information while ensuring the inventory dashboard reflected the most recent records.</li>
 <li>This challenge strengthened my understanding of many-to-many database relationships, junction tables, and form automation within database-driven applications.</li>
 </ul>
-</section>
-<section id="view-the-presentation" class="level2">
-<h2 class="anchored" data-anchor-id="view-the-presentation">View the Presentation</h2>
-<p><a href="PUBL360-Jack-General-Store.pdf">Open the presentation PDF</a></p>
 
 
 </section>
@@ -632,6 +664,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

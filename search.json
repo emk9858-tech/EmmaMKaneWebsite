@@ -60,7 +60,7 @@
     "href": "projects/Jack-General-Store/index.html#project-outcomes",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "Project Outcomes",
-    "text": "Project Outcomes\n\nHeading Page:"
+    "text": "Project Outcomes\nThe completed application supports product intake, inventory updates, allergen tracking, and inventory reporting.\n\n\n\nProducts at a Glance\n\n\n\n\n\nAdd New Product form\n\n\n\n\n\nUpdate Inventory form\n\n\n\n\n\nInventory Dashboard\n\n\n\n\n\nInventory Dashboard product table\n\n\n\n\n\nAdd Allergen form"
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#project-assumptions",
@@ -75,13 +75,6 @@
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "Project Limitations",
     "text": "Project Limitations\n\nOne technical challenge involved automating updates between the product-allergen junction table and related inventory forms within Oracle APEX. To maintain data integrity, an alternative workflow was implemented that allowed managers to manually update allergen information while ensuring the inventory dashboard reflected the most recent records.\nThis challenge strengthened my understanding of many-to-many database relationships, junction tables, and form automation within database-driven applications."
-  },
-  {
-    "objectID": "projects/Jack-General-Store/index.html#view-the-presentation",
-    "href": "projects/Jack-General-Store/index.html#view-the-presentation",
-    "title": "Jack’s General Store: Developing a Inventory Mangement System",
-    "section": "View the Presentation",
-    "text": "View the Presentation\nOpen the presentation PDF"
   },
   {
     "objectID": "projects/EHDI-project/index.html",
@@ -144,7 +137,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of my research, data, and community projects.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nJack’s General Store: Developing a Inventory Mangement System\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nAug 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEarly Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "A selection of my research, data, and community projects.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nJack’s General Store: Developing a Inventory Mangement System\n\n\nThis project was completed in fullfillment of the requirements of my class, MGIS 725: Database Management and Analytics.\n\n\n\nAug 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEarly Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "about/index.html",
