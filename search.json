@@ -39,35 +39,42 @@
     "href": "projects/Jack-General-Store/index.html",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "",
-    "text": "The purpose of the Early Hearing Detection and Intervention is to prevent more cases of not getting treatment for hearing loss; however, deaf community members and scholars have argued that the program is not designed to accomplish language development, since it heavily focuses on the medical perspective of hearing loss.\nEarly intervention programs have become a vital social program for all infants, including the Deaf and Hard of Hearing infants, ensuring developmental and cognitive milestones. Findings will inform policy design and implementaiton of the Early Hearing Detection and Intervention program using the California’s Language Equality and Acquisition for Deaf Kids (LEAD-K) framework to ensure that the program is designed to support language development for Deaf and Hard of Hearing infants.\nTo ensure that this project meets the requirements of “Honors Option” for the RIT Honors Program, the goals of the Honors Options are to engage in scholarly discosure and dissemination with the RIT community, to enchance my understanding of social policy and inequities, the following project deliverables will be completed to meet the requirements of the Honors Option."
+    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses ## Project Deliverables\n\nCreate a database schema for the inventory management system, including tables for products, inventory, and sales.\nProvide a user-friendly interface for store employees to add, update, and delete product information.\nImplement a reporting system that allows the store manager to generate reports on sales and inventory trends."
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#project-description",
     "href": "projects/Jack-General-Store/index.html#project-description",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
     "section": "",
-    "text": "The purpose of the Early Hearing Detection and Intervention is to prevent more cases of not getting treatment for hearing loss; however, deaf community members and scholars have argued that the program is not designed to accomplish language development, since it heavily focuses on the medical perspective of hearing loss.\nEarly intervention programs have become a vital social program for all infants, including the Deaf and Hard of Hearing infants, ensuring developmental and cognitive milestones. Findings will inform policy design and implementaiton of the Early Hearing Detection and Intervention program using the California’s Language Equality and Acquisition for Deaf Kids (LEAD-K) framework to ensure that the program is designed to support language development for Deaf and Hard of Hearing infants.\nTo ensure that this project meets the requirements of “Honors Option” for the RIT Honors Program, the goals of the Honors Options are to engage in scholarly discosure and dissemination with the RIT community, to enchance my understanding of social policy and inequities, the following project deliverables will be completed to meet the requirements of the Honors Option."
+    "text": "This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses ## Project Deliverables\n\nCreate a database schema for the inventory management system, including tables for products, inventory, and sales.\nProvide a user-friendly interface for store employees to add, update, and delete product information.\nImplement a reporting system that allows the store manager to generate reports on sales and inventory trends."
   },
   {
-    "objectID": "projects/Jack-General-Store/index.html#project-deliverables",
-    "href": "projects/Jack-General-Store/index.html#project-deliverables",
+    "objectID": "projects/Jack-General-Store/index.html#technical-design-and-implementation",
+    "href": "projects/Jack-General-Store/index.html#technical-design-and-implementation",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
-    "section": "Project Deliverables",
-    "text": "Project Deliverables\n\nLiterature review and data anlaysis to create a policy analysis of the Early Hearing Detection and Intervention Program as a requirement of my PUBL 360 course.\nPresent the policy analysis at the NTID Research Fair in April 2026, fulfillign the requirement of schoarly dissemination for my Honors Option project.\nPresent the policy anlaysis in the classroom to my peers and faculty in the PUBL 360 course, fulfilling the project requirements."
+    "section": "Technical Design and Implementation",
+    "text": "Technical Design and Implementation\nThe system was built using Oracle SQL and Oracle APEX and included: - Product table - Inventory table - Sales table - Allergen table - Product-Allergen junction table The database design enforced referential integrity through primary and foreign key relationships while supporting inventory tracking and reporting functionalities."
   },
   {
-    "objectID": "projects/Jack-General-Store/index.html#methods-and-tools",
-    "href": "projects/Jack-General-Store/index.html#methods-and-tools",
+    "objectID": "projects/Jack-General-Store/index.html#project-outcomes",
+    "href": "projects/Jack-General-Store/index.html#project-outcomes",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
-    "section": "Methods and Tools",
-    "text": "Methods and Tools\nProject Design:"
+    "section": "Project Outcomes",
+    "text": "Project Outcomes\n\nHeading Page:"
   },
   {
-    "objectID": "projects/Jack-General-Store/index.html#policy-recommendations",
-    "href": "projects/Jack-General-Store/index.html#policy-recommendations",
+    "objectID": "projects/Jack-General-Store/index.html#project-assumptions",
+    "href": "projects/Jack-General-Store/index.html#project-assumptions",
     "title": "Jack’s General Store: Developing a Inventory Mangement System",
-    "section": "Policy Recommendations",
-    "text": "Policy Recommendations"
+    "section": "Project Assumptions",
+    "text": "Project Assumptions\n\n10 data projects are provided for this demonstration\nAll data constraints and primary keys are met and assumed to be unique or auto-generated\nAutomated data storage is provided when the new product is recorded in the new product intake, including allergens and inventory.\nProducts can have multiple allergens. Inventory is assumed to reference one product.\nQueries are valid and assumed\nThe business manager must manually change any allergen to any product by filling out a new allergen form and a new product intake, then the inventory dashboard is recorded based on recency.\nThe inventory table records all inventory transactions, meaning all products are recounted on each inventory-recording day."
+  },
+  {
+    "objectID": "projects/Jack-General-Store/index.html#project-limitations",
+    "href": "projects/Jack-General-Store/index.html#project-limitations",
+    "title": "Jack’s General Store: Developing a Inventory Mangement System",
+    "section": "Project Limitations",
+    "text": "Project Limitations\n\nOne technical challenge involved automating updates between the product-allergen junction table and related inventory forms within Oracle APEX. To maintain data integrity, an alternative workflow was implemented that allowed managers to manually update allergen information while ensuring the inventory dashboard reflected the most recent records.\nThis challenge strengthened my understanding of many-to-many database relationships, junction tables, and form automation within database-driven applications."
   },
   {
     "objectID": "projects/Jack-General-Store/index.html#view-the-presentation",
@@ -137,7 +144,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "A selection of my research, data, and community projects.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nEarly Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nJack’s General Store: Developing a Inventory Mangement System\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "A selection of my research, data, and community projects.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nJack’s General Store: Developing a Inventory Mangement System\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nAug 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nEarly Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective\n\n\nThis project was completed in fulfillment of the requirements of my undergraduate degree as a member of the RIT Honors Program. The project was completed under the…\n\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "about/index.html",
@@ -165,7 +172,7 @@
     "href": "about/index.html#recent-work",
     "title": "Emma M. Kane",
     "section": "Recent Work",
-    "text": "Recent Work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nEarly Hearing Detection and Intervention Program Policy Analysis: Expanding Beyond the Medical Perspective\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPublications\nView my publications →"
+    "text": "Recent Work\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nJack’s General Store: Developing a Inventory Mangement System\n\n\n\n\n\nNo matching items\n\nSee all →\n\n\nPublications\nView my publications →"
   },
   {
     "objectID": "service/index.html",
