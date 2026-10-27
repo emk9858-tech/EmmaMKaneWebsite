@@ -30,29 +30,37 @@ The database design enforced referential integrity through primary and foreign k
 
 The completed application allows store employees to efficiently manage product information, track inventory levels, and generate sales reports. The system's user-friendly interface and robust database design contribute to improved operational efficiency and data accuracy for the simulated retail business. 
 
-:::: {.columns}
+::: {.grid}
 
-::: {.column width="25%"}
+::: {.g-col-3}
 ![Homepage](heading_page.png)
-![Dashboard](inventory_dashboard.png)
 :::
 
-::: {.column width="25%"}
-![Products](products_glance.png)
+::: {.g-col-3}
+![Products at a Glance](products_glance.png)
+:::
+
+::: {.g-col-3}
+![Add New Product Form](add_a_new_product.png)
+:::
+
+::: {.g-col-3}
+![Update Inventory Form](update_inventory.png)
+:::
+
+::: {.g-col-3}
+![Inventory Dashboard](inventory_dashboard.png)
+:::
+
+::: {.g-col-3}
 ![Product Table](inventory_dashboard_2.png)
 :::
 
-::: {.column width="25%"}
-![Add Product](add_a_new_product.png)
+::: {.g-col-3}
+![Add Allergen Form](allergen_form.png)
 :::
 
-::: {.column width="25%"}
-![Update Inventory](update_inventory.png)
-![Allergen Form](allergen_form.png)
 :::
-
-::::
-
 ## Project Assumptions 
 - 10 data projects are provided for this demonstration 
 - All data constraints and primary keys are met and assumed to be unique or auto-generated
