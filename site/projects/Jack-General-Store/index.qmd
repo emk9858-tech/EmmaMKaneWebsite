@@ -8,8 +8,8 @@ categories: [Data Management, SQL]
 
 ## Project Description
 This project involved designing and implementing a relational inventory management system for a simulated small retail business using SQL and Oracle APEX. The system enables inventory tracking, product management, allergen monitoring, and reporting functionalities through an interactive web-based application. The project applied database design principles, normalization techniques, and user-centered interface development to address common inventory management challenges faced by small businesses
-## Project Deliverables 
 
+## Project Deliverables 
 - Create a database schema for the inventory management system, including tables for products, inventory, and sales. 
 - Provide a user-friendly interface for store employees to add, update, and delete product information.
 - Implement a reporting system that allows the store manager to generate reports on sales and inventory trends. 
@@ -37,7 +37,7 @@ The completed application supports product intake, inventory updates, allergen t
 
 ![Inventory Dashboard product table](inventory_dashboard_2.png)
 
-![Add Allergen form](<Screenshot 2026-10-27 at 2.23.47 PM.png>)
+![Add Allergen form](allergen_form.png)
 
 
 ## Project Assumptions 
